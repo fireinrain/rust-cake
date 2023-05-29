@@ -1,0 +1,12 @@
+[package]
+name = "sni-sniffer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+native-tls = "0.2.11"
+tokio = { version = "1.28.2", features = ["full"] }
+tokio-native-tls = "0.3.1"
+#tokio-tls = "0.3.1"
